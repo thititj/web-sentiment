@@ -16,10 +16,10 @@ import { FaThumbsUp, FaThumbsDown } from "react-icons/fa";
 const BoxSentiment = (props: {
   emoji: string;
   sentiment: string;
-  neu: number;
-  pos: number;
-  neg: number;
-  q: number;
+  neu: string;
+  pos: string;
+  neg: string;
+  q: string;
 }) => {
   const { sentiment, emoji } = props;
   const data = [
